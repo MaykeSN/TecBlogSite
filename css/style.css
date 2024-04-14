@@ -37,6 +37,18 @@ body{
     background: white;
 }
 
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.links-postagem-lateral{
+    padding: 10px;
+    padding-left: none;
+    padding-bottom: none;
+}
+
 #area-lateral{
     width: 240px;
     float: right;
@@ -48,16 +60,17 @@ body{
     padding: 15px;
     clear: both;
 }
-
-#area-lateral{
-    background: orange;
-}
 /* <------- Formatação do Menu --------> */
 
 a{
     text-decoration: none;
 }
 
+.postagem-lateral{
+    font-size: 1em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
 a:link, a:visited{
     color: #f7b600;
 }
@@ -83,6 +96,12 @@ h1{
 }
 h2{
     color:#f7b600;
+}
+h3{
+    color: black;
+    background: #CCC;
+    padding: 5px;
+    text-align: center;
 }
 
 .branco{
